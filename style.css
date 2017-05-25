@@ -1,0 +1,290 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #C5C5C5;
+}
+.logo img {
+	width: 100px;
+	height: auto;
+	padding: 0;
+	margin-top: -0.5%;
+	float: left;
+}
+
+/* Header And Footer */
+/* Header */
+header {
+	background-color: #666;
+	border-bottom: 3px solid orange;
+	width: 100%;
+	height: 86px;
+	margin-bottom: 0;
+}
+/* Footer */
+footer {
+	background-color: #666;
+	border-top: 3px solid orange;
+	width: 100%;
+	height: 40px;
+	clear: both;
+}
+footer h3 {
+	font-family: fabrica;
+	font-size: 14px;
+	font-weight: 200;
+	color: #FFF;
+	text-align: left;
+	line-height: 5px;
+	padding: 2px;
+	margin-left: 20px;
+	float: left;
+}
+footer a {
+	font-size: 20px;
+}
+.fa {
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-right: 32px;
+}
+footer i:hover {
+	opacity: .6;
+}
+.fa-facebook {
+	color: white;
+}
+.fa-twitter {
+	color: white;
+}
+.fa-youtube {
+	color: white;
+}
+.fa-instagram {
+	color: white;
+}
+.fa-steam {
+	color: white;
+}
+
+/* Nav Bar Styling Start */
+nav ul {
+	float : right;
+}
+
+nav ul a {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	margin-top: 8px;
+	padding: 3px; 
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+	font-family: fabrica;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 30px;
+}
+nav ul a:last-child {
+	margin-right: 20px; 
+}
+nav ul li:hover {
+	border : 2px solid #FFF;
+	border-radius: 3px;
+	opacity: .7;
+}
+#current {
+	border : 2px solid #FFF;
+	border-radius: 3px;
+}
+/* Navbar Styling End */
+
+/* index.html */
+/* About Start */
+.about {
+	text-align: center;
+	background: url("img/ab.png");
+	width: 100% - 2px;
+	height: 328px;
+	padding: 2px;
+}
+.about h2{
+	color: white;
+	font-family: fabrica;
+	letter-spacing: 2px;
+	margin-top: 8%; 
+}
+.about p {
+	color: white;
+	font-family: fabrica;
+	letter-spacing: 3px;
+}
+/* About End */
+
+/* Section 1 start */
+.s1 {
+	background-color: white;
+	width: 100% - 2px;
+	height : 180px;
+	margin: 0;
+	padding: 2px;
+}
+.s1 div {
+	margin-left: 2.5%;
+}
+/* Div 1*/
+.div1 {
+	float: left;
+}
+.div1 i {
+	float: left;
+	text-align: center;
+	font-size: 100px;
+	color: #666;
+	margin: 10% 5% 5% 5%;
+}
+.div1 h2 {
+	font-family: fabrica;
+	margin-top: 6%;
+}
+.div1 p {
+	font-size: 15px;
+	font-weight: 200;
+	width: 400px;
+	height: auto;
+	font-family: fabrica;
+	text-align: justify;
+}
+/* Div 2 */
+.div2 {
+	float: left;
+}
+.div2 i {
+	float: left;
+	text-align: center;
+	font-size: 100px;
+	color: #666;
+	margin: 10% 5% 5% 5%;
+}
+.div2 h2 {
+	font-family: fabrica;
+	margin-top: 6%;
+}
+.div2 p {
+	font-size: 15px;
+	font-weight: 200;
+	width: 400px;	
+	height: auto;
+	font-family: fabrica;
+	text-align: justify;
+}
+/* Div 3 */
+.div3 {
+	float: left;
+}
+.div3 i {
+	float: left;
+	text-align: center;
+	font-size: 100px;
+	color: #666;
+	margin: 10% 5% 5% 5%;
+}
+.div3 h2 {
+	font-family: fabrica;
+	margin-top: 6%;
+}
+.div3 p {
+	font-size: 15px;
+	font-weight: 200;
+	width: 400px;
+	height: auto;
+	font-family: fabrica;
+	text-align: justify;
+}
+/* Section 1 end */
+
+/* contact.html */
+/* Section 2 start */
+.s2 {
+	margin: 0;
+	padding: 2px;
+	background-color: white;
+	width: 100%-2%;
+	height: 50px;
+	border-bottom: 1px solid lightgrey;
+}
+.s2 h1 {
+	font-family: fabrica;
+	text-align: center;
+	line-height: 10px;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+/* Section 2 end */
+
+/* Section 3 start */
+.s3 {
+	margin: 0;
+	background-color: white;
+	width: 100%-2%;
+	height: 461px;
+}
+.s3 i {
+	color: #666;
+	font-size: 50px;
+	margin-left: 40px;
+	margin-top: 20px; 
+	opacity: .8;
+	float: left;
+}
+.s3 p {
+	font-size: 20px;
+	font-family: fabrica;
+	line-height: 50px;
+	letter-spacing: 2px;
+}
+.s3 div {
+	width: 100%;
+	height: 55px;
+	float: left;
+}
+.email i {
+	margin-right: 20px;
+}
+.facebook i {
+	margin-right: 33px;
+	margin-left: 48px;
+}
+.twitter i {
+	margin-right: 24px;
+}
+.steam i {
+	margin-right: 20px;
+}
+.instagram i {
+	margin-right: 23px;
+	margin-left: 45px;
+}
+/* Section 3 end */
+/* contact.html end */
+
+/* goals.html start */
+.s4 {
+	margin: 0;
+	padding: 2px;
+	background-color: white;
+	width: 100%-2%;
+	height: 50px;
+	border-bottom: 1px solid lightgrey;
+}
+.s4 h1 {
+	font-family: fabrica;
+	text-align: center;
+	line-height: 10px;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
