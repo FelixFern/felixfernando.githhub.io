@@ -273,6 +273,7 @@ nav ul li:hover {
 /* contact.html end */
 
 /* goals.html start */
+/* Section 4 start */
 .s4 {
 	margin: 0;
 	padding: 2px;
@@ -287,4 +288,59 @@ nav ul li:hover {
 	line-height: 10px;
 	font-weight: 200;
 	letter-spacing: 2px;
+}
+/* Section 4 end*/
+
+/* Section 5 start */
+.s5 {
+	margin: 0;
+	background-color: white;
+	width: 100%-2%;
+	height: 461px;
+}
+.s5 p {
+	margin: 0;
+	color: grey;
+	opacity: .5;
+	font-size: 25px;
+	font-family: fabrica;
+	text-align: center;
+	line-height: 100px;
+}
+/* Section 5 end */
+
+/* dw.html */
+/* Section 6 start */
+.s6 {
+	margin: 0;
+	padding: 2px;
+	background-color: white;
+	width: 100%-2%;
+	height: 50px;
+	border-bottom: 1px solid lightgrey;
+}
+.s6 h1 {
+	font-family: fabrica;
+	text-align: center;
+	line-height: 10px;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+/* Section 6 end */
+
+/* Section 7 start */
+.s7 {
+	margin: 0;
+	background-color: white;
+	width: 100%-2%;
+	height: 461px;
+}
+.s7 p {
+	margin: 0;
+	color: grey;
+	opacity: .5;
+	font-size: 25px;
+	font-family: fabrica;
+	text-align: center;
+	line-height: 100px;
 }
