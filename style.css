@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #C5C5C5;
+	background-color: white;
 }
 .logo img {
 	width: 100px;
@@ -375,19 +375,50 @@ nav ul li:hover {
 }
 /* Section 6 end */
 
-/* Section 7 start */
-.s7 {
+/* dw start */
+.dw {
 	margin: 0;
 	background-color: white;
 	width: 100%-2%;
-	height: 461px;
+	height: 100%;
+	overflow: hidden;
 }
-.s7 p {
-	margin: 0;
-	color: grey;
-	opacity: .5;
-	font-size: 25px;
+.dw p {
+	margin-top: -20px;
+	margin-left: 30px;
+	font-size: 18px;
 	font-family: fabrica;
-	text-align: center;
 	line-height: 100px;
+	margin-bottom: -35px;
+}
+.a1 {
+	margin-top: 10px;
+}
+article {
+	margin-bottom: 100px;
+}
+article img {
+	width: 300px;
+	height: auto;
+	margin-left: 40px;
+	margin-right: 20px;
+	float: left;
+}
+article h1 {
+	font-family: fabrica;
+	text-decoration: underline;
+}
+article p {
+	font-family: fabrica;
+	margin-top: -10px;
+}
+article a{
+	border : 1px solid orange;
+	padding: 8px;
+	text-decoration: none;
+	background-color: #666;
+	color: white;
+}
+article a:hover {
+	opacity: .7;
 }
