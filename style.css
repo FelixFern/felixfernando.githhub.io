@@ -107,18 +107,21 @@ nav ul li:hover {
 	width: 100% - 2px;
 	height: 328px;
 	padding: 2px;
+    -webkit-animation-duration : 2s;
 }
 .about h2{
 	color: white;
 	font-family: fabrica;
 	letter-spacing: 3px;
 	margin-top: 8%; 
+    -webkit-animation-delay: 0s;
 }
 .about p {
 	font-size: 13px;
 	color: white;
 	font-family: fabrica;
 	letter-spacing: 4px;
+    -webkit-animation-delay: 0.2s;
 }
 /* About End */
 
@@ -130,6 +133,7 @@ nav ul li:hover {
 	margin: 0;
 	padding: 2px;
 	border-bottom: 1px solid lightgrey;
+    -webkit-animation-delay: 0.3s;
 }
 .s1 div {
 	margin-left: 2.5%;
@@ -212,6 +216,8 @@ nav ul li:hover {
 	margin: 0;
 	border-bottom: 1px solid lightgrey;
 	overflow: hidden;
+    -webkit-animation-delay: 0.4s;
+    -webkit-animation-duration: 0.5s; 
 }
 .faq-header h1 {
 	font-family: fabrica;
