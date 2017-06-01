@@ -86,7 +86,7 @@ nav ul a {
 	font-size: 15px;
 }
 nav ul a:last-child {
-	margin-right: 20px; 
+	margin-right: 20px;
 }
 nav ul li:hover {
 	border : 2px solid #FFF;
@@ -107,13 +107,13 @@ nav ul li:hover {
 	width: 100% - 2px;
 	height: 328px;
 	padding: 2px;
-    -webkit-animation-duration : 2s;
+  -webkit-animation-duration : 2s;
 }
 .about h2{
 	color: white;
 	font-family: fabrica;
 	letter-spacing: 3px;
-	margin-top: 8%; 
+	margin-top: 8%;
     -webkit-animation-delay: 0s;
 }
 .about p {
@@ -179,7 +179,7 @@ nav ul li:hover {
 .div2 p {
 	font-size: 15px;
 	font-weight: 200;
-	width: 400px;	
+	width: 400px;
 	height: auto;
 	font-family: fabrica;
 	text-align: justify;
@@ -216,8 +216,8 @@ nav ul li:hover {
 	margin: 0;
 	border-bottom: 1px solid lightgrey;
 	overflow: hidden;
-    -webkit-animation-delay: 0.4s;
-    -webkit-animation-duration: 0.5s; 
+  -webkit-animation-delay: 0.4s;
+  -webkit-animation-duration: 0.5s;
 }
 .faq-header h1 {
 	font-family: fabrica;
@@ -239,7 +239,7 @@ nav ul li:hover {
 	line-height: 20px;
 }
 .faq p a {
-	text-decoration: none;	
+	text-decoration: none;
 	color: black;
 }
 .faq div:first-child {
@@ -250,9 +250,13 @@ nav ul li:hover {
 }
 .faq div {
 	margin: 0 auto;
+	padding-top: 2px;
 	margin-top: 15px;
-	border : 1px solid orange;
-	opacity: .8;
+	background-color: #white;
+	border-bottom: 2px solid orange;
+	border-top: 0.3px solid lightgrey;
+	border-left: 0.3px solid lightgrey;
+	border-right: 0.3px solid lightgrey;
 	border-radius: 3px;
 	width: 1200px;
 	text-align: center;
@@ -283,7 +287,7 @@ nav ul li:hover {
 	color: #666;
 	font-size: 50px;
 	margin-left: 40px;
-	margin-top: 20px; 
+	margin-top: 20px;
 	opacity: .8;
 	float: left;
 }
@@ -302,7 +306,7 @@ nav ul li:hover {
 .email {
 	-webkit-animation-delay: 0s;
 	animation-delay: 0s;
-	-webkit-animation-duration: 0.2s; 
+	-webkit-animation-duration: 0.2s;
 	animation-duration: 0.2s;
 }
 .email i {
@@ -350,48 +354,94 @@ nav ul li:hover {
 
 /* Sidebar start */
 .co-sidebar1 {
-	background-color: #666;
+	background-color: white;;
 	float: right;
-	margin-top: -455px;
+	margin-top: -458px;
 	margin-right: 35px;
 	font-family: fabrica;
 	width: 400px;
 	border-bottom: 2px solid orange;
-	padding: 20px;
+	border-top: 0.3px solid lightgrey;
+	border-left: 0.3px solid lightgrey;
+	border-right: 0.3px solid lightgrey;
+	border-radius: 3px;
+	padding: 3px 20px;
 	-webkit-animation-duration: 10s;
 	opacity: .8;
 }
 .co-sidebar1 h2{
-	color: white;
 	font-size: 15px;
 	text-align: center;
 	letter-spacing: 1px;
 	padding-bottom: 10px;
-	border-bottom: 2px solid orange;
+	border-bottom: 1px solid orange;
 }
 .co-sidebar1 p {
-	color: white;
 	text-align: justify;
 }
 /* Sidebar end */
 /* contact.html end */
 
-/* gears.html start */
+/* design.html start */
+/* About-ds start */
+.about-ds {
+	text-align: center;
+	background: url("img/design.png");
+	width: 100% - 2px;
+	height: 328px;
+	padding: 2px;
+  -webkit-animation-duration : 2s;
+}
+.about-ds h2{
+	color: grey;
+	font-family: fabrica;
+	letter-spacing: 3px;
+	margin-top: 8%;
+  -webkit-animation-delay: 0s;
+}
+.about-ds p {
+	font-size: 13px;
+	color: grey;
+	font-family: fabrica;
+	letter-spacing: 4px;
+  -webkit-animation-delay: 0.2s;
+}
 /* Section 4 start */
 .s4 {
-	margin: 0;
+	margin: auto 0;
 	padding: 2px;
+	width: 100%x;
+	height: 220px;
 	background-color: white;
-	width: 100%-2%;
-	height: 50px;
-	border-bottom: 1px solid lightgrey;
+	border-bottom: 2px solid orange;
+	border-top: 0.3px solid lightgrey;
+	border-left: 0.3px solid lightgrey;
+	border-right: 0.3px solid lightgrey;
+	border-radius: 3px;
+
 }
-.s4 h1 {
+.s4 div {
+	float: left;
+	margin-left: 15px;
+	width: 300px;
+}
+.s4 div h1 {
 	font-family: fabrica;
-	text-align: center;
-	line-height: 10px;
 	font-weight: 200;
-	letter-spacing: 2px;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+.s4 div p {
+	font-size: 18px;
+	margin-top: -18px;
+	text-align: justify;
+}
+.s4 img {
+	float: left;
+	width: 250px;
+	height: auto;
+	margin-top: 20px;
+	margin-left: 20px;
 }
 /* Section 4 end*/
 
@@ -403,13 +453,6 @@ nav ul li:hover {
 	height: 492px;
 }
 .s5 p {
-	margin: 0;
-	color: grey;
-	opacity: .5;
-	font-size: 25px;
-	font-family: fabrica;
-	text-align: center;
-	line-height: 100px;
 }
 /* Section 5 end */
 
