@@ -110,29 +110,28 @@ footer i:hover {
 }
 
 div {
-    margin-top: 100px;
+    margin-top: 120px;
     margin-left: 5%;
     font-family: fabrica;
-    float: left;
 }
 div h1 {
     font-size: 35px;
 }
 div p {
-    margin-left: 15px;
+    margin-left: 25px;
 }
-#first-line {
-    margin-left: 50px;
-}
+
 div a {
-    position: relative;
-    margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 25px;
     text-decoration: none;
     color: #2B2B2B;
     border: 1px solid #2B2B2B;
-    padding: 1.2% 1% 1.2% 1%;
+    padding: 0.6% 1% 0.6% 1%;
+    border-radius: 2px; 
 }
 div a:hover {
     opacity: 0.8;
+}
+#div2 {
+    margin-top: 30px;
 }
