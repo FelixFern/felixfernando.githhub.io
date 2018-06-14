@@ -1,6 +1,7 @@
 header {
     position: fixed;
     top: 0;
+    left: 0;
     background: #ffffff;
     border-bottom: 0.05px solid #5B5B5B;
     height: 2.7em;
@@ -28,7 +29,7 @@ header p {
     width: 20px;
     height: auto;
     float: left;
-    margin-left: 10px; 
+    margin-left: 14px; 
     margin-top: 7px;
 }
 header nav {
@@ -50,7 +51,7 @@ header nav a:hover {
     opacity: .8;
 }
 #last-child-nav {
-    margin-right: 18px;
+    margin-right: 8px;
 }
 #current {
 	border-top : 3px solid #494949;
@@ -58,7 +59,10 @@ header nav a:hover {
 
 footer {
     clear: both;
+    position: fixed;
     bottom: 0;
+    left: 0;
+    background: #ffffff;
     border-top: 0.05px solid #5B5B5B;
     height: 2.3em;
     width: 100%;
@@ -69,7 +73,7 @@ footer h3 {
 	font-weight: 200;
 	color: #2B2B2B;
 	text-align: left;
-	line-height: 5px;
+	line-height: 7px;
 	padding: 2px;
 	margin-left: 15px;
 	float: left;
@@ -106,10 +110,29 @@ footer i:hover {
 }
 
 div {
-    text-align: center;
-    margin-top: 55px;
+    margin-top: 100px;
+    margin-left: 5%;
+    font-family: fabrica;
+    float: left;
+}
+div h1 {
+    font-size: 35px;
 }
 div p {
-    font-size: 180px;
-    font-family: fabrica;
+    margin-left: 15px;
+}
+#first-line {
+    margin-left: 50px;
+}
+div a {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #2B2B2B;
+    border: 1px solid #2B2B2B;
+    padding: 1.2% 1% 1.2% 1%;
+}
+div a:hover {
+    opacity: 0.8;
 }
