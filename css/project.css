@@ -108,30 +108,93 @@ footer i:hover {
 .fa-steam {
 	color: #5B5B5B;
 }
+.fa-cloud-download {
+    color: #ffffff;
+}
+.fa-search {
+    color: #ffffff;
+    margin-right: 10px;
+}
 
 div {
-    margin-top: 120px;
-    margin-left: 5%;
-    font-family: fabrica;
+    margin-top: 70px;
+    text-align: center;
+    font-family: fabrica;  
 }
 div h1 {
-    font-size: 35px;
+    font-size: 30px;  
+    border-bottom: 0.5px solid #975B5B5B;
+    padding-bottom: 20px;  
+    width: 450px;
+    margin: auto;
 }
 div p {
-    margin-left: 25px;
+    margin-top: 20px;          
+    float: left;
+    margin-left: 50px;
+    -webkit-animation-delay: 0.2s;
 }
-
-div a {
-    margin-left: 30px;
+.projectimg {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: -350px;
+    margin-right: 370px;
+    display: inline-block;
+    -webkit-animation-delay: 0.7s;
+}
+.projectimg img{
+    width: 200px;
+    height: 140px;
+    position: relative;
+}
+.projectimg p {
+        padding-top: 20px;
+        margin-top: -145px;
+        margin-left: 0px;
+        width: 200px;
+        height: 120px;
+        position: absolute;
+        visibility: hidden;
+        background: rgba(43, 43, 43, 0.8);
+        color: #fff;
+        opacity: 0;
+        transition: opacity .5s, visibility .5s;
+        z-index: 1;
+}
+.projectimg:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+.projectimg a {
+    padding-top: 20px;
+    margin-top: -60px;
+    margin-left: -100px;
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    visibility: hidden;
+    color: #fff;
+    opacity: 0;
+    transition: opacity .5s, visibility .5s;
+    z-index: 1;
     text-decoration: none;
-    color: #2B2B2B;
-    border: 1px solid #2B2B2B;
-    padding: 0.6% 1% 0.6% 1%;
-    border-radius: 2px; 
 }
-div a:hover {
-    opacity: 0.8;
+.projectimg:hover a {
+    visibility: visible;
+    opacity: 1;
 }
-#div2 {
-    margin-top: 30px;
+#download {
+    margin-left: -80px;
+}
+#secondrowfirst {
+    margin:0px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+#secondrow {
+    margin: 0px;
+    margin-top: 60px;
+    margin-left: 20px;
 }
