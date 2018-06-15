@@ -1,3 +1,8 @@
+html {
+    background: url(img/bg-home.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
 header {
     position: fixed;
     top: 0;
@@ -129,8 +134,8 @@ div h1 {
     margin: auto;
 }
 div p {
+    text-align: left;
     margin-top: 20px;          
-    float: left;
     margin-left: 50px;
     -webkit-animation-delay: 0.2s;
 }
@@ -138,11 +143,14 @@ div p {
     float: left;
     width: 200px;
     height: 100px;
-    margin-top: 60px;
-    margin-left: -350px;
-    margin-right: 370px;
+    margin: 0px;
+    margin-top: -20px;
+    margin-left: 20px;
     display: inline-block;
     -webkit-animation-delay: 0.7s;
+}
+#firstimg {
+    margin-left: 40px;
 }
 .projectimg img{
     width: 200px;
@@ -150,11 +158,11 @@ div p {
     position: relative;
 }
 .projectimg p {
-        padding-top: 20px;
+        padding-top: 30px;
         margin-top: -145px;
         margin-left: 0px;
         width: 200px;
-        height: 120px;
+        height: 110px;
         position: absolute;
         visibility: hidden;
         background: rgba(43, 43, 43, 0.8);
@@ -162,6 +170,7 @@ div p {
         opacity: 0;
         transition: opacity .5s, visibility .5s;
         z-index: 1;
+        text-align: center;
 }
 .projectimg:hover p {
     visibility: visible;
@@ -191,7 +200,7 @@ div p {
 #secondrowfirst {
     margin:0px;
     margin-top: 60px;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 #secondrow {
     margin: 0px;
