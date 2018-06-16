@@ -21,13 +21,21 @@
         background: url(img/bg-home.png);
         background-size: cover;
     }
+    @media only screen and (max-width: 700px){
+        html {
+            background: #ffffff;
+        }
+        #div2 a:hover {
+            opacity: 0.5;
+        }
+    }
 </style>
 <body>
     <header>
         <a class="imagelogo" href="index.html"><img src="img/ff-logo.png" alt="ff-logo"></a>
         <p id="name-header">FELIX</p>
         <p id="name-header1">FERNANDO</p>
-        <nav>
+        <nav class="fullsize">
             <a id="current" href="#">Home</a>
             <a href="about.html">About</a>
             <a class="last-child-nav" href="project.html">Project</a>

@@ -1,8 +1,3 @@
-html {
-    background: url(img/bg-home.png);
-    background-size: cover;
-    background-blend-mode: multiply;
-}
 header {
     position: fixed;
     top: 0;
@@ -12,6 +7,7 @@ header {
     height: 2.7em;
     width: 100%;
     text-align: center;
+    z-index: 2;
 }
 header p {
     font-family: fabrica;
@@ -144,13 +140,13 @@ div p {
     width: 200px;
     height: 100px;
     margin: 0px;
-    margin-top: -20px;
+    margin-top: 30px;
     margin-left: 20px;
     display: inline-block;
     -webkit-animation-delay: 0.7s;
 }
 #firstimg {
-    margin-left: 40px;
+    margin-left: 120px;
 }
 .projectimg img{
     width: 200px;
@@ -200,7 +196,7 @@ div p {
 #secondrowfirst {
     margin:0px;
     margin-top: 60px;
-    margin-left: 40px;
+    margin-left: 120px;
 }
 #secondrow {
     margin: 0px;
