@@ -229,9 +229,6 @@ div a {
     #toggle:checked + div {
         display: block;
     }
-    label #toggle:checked +{
-        transform: rotate(90deg);
-    }
     .first {
         -webkit-animation-delay: 0.1s;
     }

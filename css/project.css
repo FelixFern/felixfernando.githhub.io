@@ -207,6 +207,9 @@ div p {
     margin-top: 60px;
     margin-left: 20px;
 }
+#search {
+    margin-left: 145px;
+}
 .mobile {
     display: none;
 }
@@ -226,7 +229,7 @@ div p {
     }
     div p {
         font-size: 11px; 
-        margin-left: 0;s
+        margin-left: 0;
     }
     div a {
         margin-left: 0;
@@ -308,4 +311,38 @@ div p {
     .last {
         -webkit-animation-delay: 1s;
     }
+
+    .projectimg {
+        margin: 0;
+        margin: auto;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .projectimg a {
+        margin-right: 5px;
+    }
+    #firstimg {
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+    #secondrowfirst {
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    #secondrow {
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    div h1{
+        font-size: 20px;
+        margin: 0;
+        margin-top: 50px;
+        text-align: center;
+        width: 200px;
+        margin: auto;
+    }
+
 }
