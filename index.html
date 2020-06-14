@@ -1,75 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Home | Felix Fernando</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css "href="css/index.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Felix Fernando - Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-</head>
-<style>
-    html { 
-        background: url(img/bg-home.png);
-        background-size: cover;
-    }
-    @media only screen and (max-width: 700px){
-        html {
-            background: #ffffff;
-        }
-        #div2 a:hover {
-            opacity: 0.5;
-        }
-    }
-</style>
-<body>
-    <header>
-        <a class="imagelogo" href="index.html"><img src="img/ff-logo.png" alt="ff-logo"></a>
-        <p id="name-header">FELIX</p>
-        <p id="name-header1">FERNANDO</p>
-        <nav class="fullsize">
-            <a id="current" href="#">Home</a>
-            <a href="about.html">About</a>
-            <a class="last-child-nav" href="project.html">Project</a>
-        </nav>
-        <nav class="mobile">
-            <label class="rotate" for="toggle">&#9776</label>
-            <input type="checkbox" id="toggle">
-            <div>
-                <a class="paren defaul first animated fadeInDown" href="#">Home</a>
-                <a class="paren defaul second animated fadeInDown" href="about.html">About</a>
-                <a class="paren defaul last animated fadeInDown" href="project.html">Project</a>
-            </div>
-        </nav>
-    </header>
-
-    <div>
-        <h1 class="animated fadeIn">Welcome</h1>
-        <p class="animated fadeInDown">Hi, I'm Felix Fernando, Welcome to my personal website.</p>
-        <p class="animated fadeInDown">i'll put most of my project here, and hope that it'll be useful for everyone.</p>
-        <p class="animated fadeInDown">and also this will be my portfolio website that i'll maybe use sometimes in near future.</p>
-        <p class="animated fadeInDown" id="last-line">that's all, thanks for visiting.</p>
-    </div>
-    <div id="div2">
-        <a class="animated fadeInDown" href="project.html">Check Out My Project</a>
-    </div>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
-    <footer>
-        <h3> Copyright &copy Felix Fernando 2018</h3>
-		<a href ="https://www.facebook.com/felix.fernando12348"><i class="fa fa-facebook"></i></a>
-		<a href ="https://twitter.com/Felix_Fernando_"><i class="fa fa-twitter"></i></a>
-		<a href ="https://www.youtube.com/channel/UCK-KH0huKdyiDQUvQZQyy_A"><i class="fa fa-youtube"></i></a>
-		<a href ="https://www.instagram.com/felix_fernando1/"><i class="fa fa-instagram"></i></a>
-		<a href ="https://steamcommunity.com/id/FernPlnt/"><i class="fa fa-steam"></i></a>
-    </footer>
-
+</head>
+</script>
+<body>
+    <nav class="sidebar">
+        <ul>
+            <li class="logo"><a><img src="img/icon-black.svg" alt=""></a></li>
+            <li class="nav-icon"><a href="#page1"><img src="img/iconmonstr-home-7-240.png" alt=""></a></li>
+            <li class="nav-icon"><a href="#page2"><img src="img/iconmonstr-help-3-240.png" alt=""></a></li>
+            <li class="nav-icon"><a href="#page3"><img src="img/iconmonstr-task-1-240.png" alt=""></a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="page1" class="welcome">
+            <h1 data-aos="fade">hello,</h1>
+            <p data-aos="fade">I'm <span></span></p>
+            <div data-aos="fade" class="social-media">
+                <a href="https://www.youtube.com/channel/UCK-KH0huKdyiDQUvQZQyy_A"><i class="im im-youtube"></i></a>
+                <a href="https://www.instagram.com/felixfern_/"><i class="im im-instagram"></i></a>
+                <a href="https://github.com/FelixFern/"><i class="im im-github"></i></a>
+            </div>
+        </div>
+        <div id="page2" class="welcome2">
+            <h1 data-aos="fade-right">welcome.</h1>
+            <p data-aos="fade-right">to my <span>personal website</span>,
+                this website is made to showcase 
+                most of my personal project.</p>
+        </div>
+        <div id="page3" class="welcome3">
+            <h1 data-aos="fade">my project</h1>
+            <div data-aos="fade-right" data-aos-delay="50" class="project" style="border-right: 5px solid #47C5FB;">
+                <section id="image"><img src="img/project/covid19.png" alt=""></section>
+                <section id="desc">
+                    <h1><span style="color: #47C5FB;">[Flutter]</span> COVID-19 Tracker App </h1>
+                    <p>a simple app made in flutter, that track the number of confirmed case, death, recovered, and patients in recovery causes by COVID-19 in Indonesia.</p>
+                    <a href="https://drive.google.com/file/d/1xvQV8DnDCteAVgnuKnnftIyajWJsx8Jw/view?usp=sharing" target="_blank"><i class="im im-download"></i></a>
+                </section>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="50" class="project">
+                <section id="image"><img src="img/project/icon-black.png" alt=""></section>
+                <section id="desc">
+                    <h1><span style="color: #FFA300;">[Logo Design]</span> Felix Fernando Logo </h1>
+                    <p>a personal logo design.</p>
+                </section>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="50" class="project">
+                <section id="image"><img src="img/project/zooms.jpg" alt=""></section>
+                <section id="desc">
+                    <h1><span style="color: #FFA300;">[Logo Design]</span> SMAK Yos Sudarso Zooms Logo </h1>
+                    <p>a logo design made for SMAK Yos Sudarso new students orientation of 2019 </p>
+                </section>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="50" class="project">
+                <section id="image"><img src="img/project/arceus.png" alt=""></section>
+                <section id="desc">
+                    <h1><span style="color: #FFA300;">[Logo Design]</span> ARCEUS Logo </h1>
+                    <p>a logo design made for my class (MIA 4) in senior high school.</p>
+                </section>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="50" class="project">
+                <section id="image"><img src="img/project/4watt.png" alt=""></section>
+                <section id="desc">
+                    <h1><span style="color: #FFA300;">[Logo Design]</span> 4Watt Logo </h1>
+                    <p>a logo design made for 4Watt, an educational channel.</p>
+                    <a href="https://www.youtube.com/channel/UCHnoRjjrsCAezdpcsRbksPQ" target="_blank"><i class="im im-youtube"></i></a>
+                    <a href="https://www.instagram.com/4watt_/" target="_blank"><i class="im im-instagram"></i></a>
+                </section>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="50" class="project">
+                <section id="image"><img src="img/project/poncheese.jpg" alt=""></section>
+                <section id="desc">
+                    <h1><span style="color: #FFA300;">[Logo Design]</span> Poncheese Logo </h1>
+                    <p>a logo design made for my entrepreneurship group project that requires us to produce and sell product in my senior high school. Poncheese stands for "Klepon Cheese" which translate to "Klepon Keju".</p>
+                    <a href="https://www.youtube.com/watch?v=fYYBceqE14g" target="_blank"><i class="im im-youtube"></i></a>
+                </section>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="50" class="project" style="border-right: 5px solid yellow;">
+                <section id="image"><img src="img/project/850hari.png" alt=""></section>
+                <section id="desc">
+                    <h1><span style="color: yellow;">[Short Film]</span> 850 Hari - Short Film </h1>
+                    <p>a short film about memories of my class (MIA 4) in senior high school. This short film is the final class project in senior high school.</p>
+                    <a href="https://www.youtube.com/watch?v=E7QNzdPNYNQ" target="_blank"><i class="im im-youtube"></i></a>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
 </body>
 </html>
