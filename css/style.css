@@ -18,8 +18,9 @@ body::-webkit-scrollbar-thumb {
 }
 /*Sidebar*/
 .sidebar {
+    visibility: visible;
     position: fixed;
-    width: 3%;
+    width: 50px;
     height: 100vh;
     background-color: #191919;
     margin: 0;
@@ -29,6 +30,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
 
 }
 ul {
@@ -39,7 +41,7 @@ ul {
 .logo { 
     background-color: #FFA300 ;
     margin-top: 40%;
-    margin-bottom: 400%;
+    margin-bottom: 150px;
 }
 .logo img {
     width: 90%;
@@ -64,7 +66,7 @@ ul {
 
 /* Main */
 main {
-    margin-left: 3%;
+    margin-left: 50px;
     background-color: black;
     top: 0%;
 }
@@ -195,6 +197,7 @@ main {
     overflow: hidden;
     text-align: left;
     border-right: 5px solid #FFA300;
+    z-index: -1;
 }
 .project #image {
     height: 100%;
@@ -238,4 +241,45 @@ main {
 }
 .project a:hover i{
     color: #FFA300;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sidebar {
+        visibility: hidden;
+    }
+    main {
+    /* First Page */
+        margin: 0;
+    }
+    .welcome h1 { 
+        font-size: 50px;
+        padding-top: 150px;
+    }
+    .welcome p {
+        margin-top: -40px;
+        font-size: 30px;
+    }
+    .social-media {
+        margin-top: -10px;
+    } 
+    /* Second Page*/
+    .welcome2 h1 {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    .welcome2 p {
+        font-size: 30px;
+        margin-top: -20px;
+    }
+    /* Third Page */
+    .welcome3 h1 {
+        font-size: 35px;
+    }
+    /* Project */
+    .project h1 {
+        font-size: 20px;
+    }
+    .project p {
+        font-size: 13px;
+    }
 }
