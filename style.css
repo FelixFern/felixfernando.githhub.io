@@ -1,0 +1,378 @@
+/*
+Light 300
+Regular 400
+Medium 500
+Semibold 600
+Bold 700
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+body::-webkit-scrollbar {
+    width: 4px;
+}
+body::-webkit-scrollbar-track {
+    background: white;
+}
+body::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+}
+
+/* Start */
+.start {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-color: #2e2e2e;
+    position: relative;
+    text-align: center;
+}
+.start div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    width: fit-content;
+}
+.start div h1 {
+    font-family: 'Courier Prime', monospace;
+    font-size: 50px;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.start div h1::before,.start div h1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+} 
+.start div h1::before {
+    background: #2e2e2e;
+    animation: typewriter 2.5s steps(33) forwards;
+}
+.start div h1::after {
+    width: .125em;
+    background: white;
+    animation: 
+        typewriter 2.5s steps(33) forwards,
+        blink .8s infinite;
+}
+
+@keyframes typewriter {
+    to {left: 100%; }
+
+}
+@keyframes blink {
+    to {opacity: 0;}
+}
+
+.start div p {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: -2px;
+}
+.start a {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.start a:hover {
+    opacity: .8;
+}
+
+/* Project */
+.project {
+    text-align: center;
+    width: 100vw;
+    height: fit-content;
+    margin: 0%;
+    padding: 0%;
+}
+.project h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #3E3E3E;
+}
+/* Card */
+#card { 
+    overflow: hidden;
+    margin: auto;
+    width: 340px;
+    height: 520px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    animation: card-out 0.5s ease-out;
+    margin-bottom: 25px;
+}
+#card img {
+    width: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#gambar-project {
+    width: 100%;
+    height: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+#line {
+    margin: 0;
+    width: 75%;
+    height: 10px;
+    background-color: white;
+}
+#card-content {
+    width: 85%;
+    height: 40%;
+    margin: auto;
+    text-align: left;
+}
+#card-content h1 { 
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+#card-content p {
+    margin-top: -10px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+#card-content a {
+    text-decoration: none;
+    color: white;
+}
+#card-content i {
+    font-size: 28px;
+    margin-right: 15px;
+}
+#card-content a:hover {
+    opacity: .8;
+}
+#project-tag {
+    width: 85%;
+    margin: auto;
+    text-align: left;
+}
+#project-tag p {
+    color: white;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#project-tag ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#project-tag li {
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    width: 28%;
+    margin-right: 5px;
+    padding: 5px 0 5px 0;
+    border-radius: 5px;
+}
+
+#page-break {
+    margin: auto;
+    background-color: #8E8E8E;
+    width: 85%;
+    height: 0.8px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* About */
+.about {
+    margin: auto;
+    position: relative;
+}
+#title {
+    background-color: #2e2e2e;
+    width: 23%;
+    color: white;
+    padding: 0;
+    position: relative;
+    z-index: 999;
+}
+#title h1 {
+    margin: auto;
+    width: fit-content;
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#about-me {
+    margin: auto;
+    width: 80%;
+    margin-top: -80px;
+    z-index: -1;
+    display: flex;
+}
+#spacer { 
+    width: 150px;
+    height: 30px;
+}
+#about-me img {
+    width: 35%;
+    height: 35%;
+}
+#about-me div {
+    margin: auto;
+}
+#about-me div p{
+    font-size: 24px;
+    font-weight: 300;
+}
+#about-me div h1 {
+    font-size: 22px;
+    margin-bottom: -20px;
+}
+
+/* Tools */
+#tools {
+    display: flex;
+    margin-top: 50px;
+}
+#tools h1 { 
+    font-size: 50px;
+    margin: 0;
+    margin-top: 10px;
+}
+#title-2 {
+    background-color: #2e2e2e;
+    width: 18%;
+    height: fit-content;
+    color: white;
+    padding: 0;
+    position: relative;
+    margin-right: 120px;
+}
+#title-2 h1 {
+    margin: auto;
+    width: fit-content;
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#list-text {
+    width: 100%;
+    margin-bottom: -20px;
+    display: flex;
+}
+#list-text p {
+    width: 50%;
+    font-size: 22px;
+    font-weight: 500;
+}
+footer {
+    margin: auto;
+    width: 85%;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+footer p {
+    margin: 0;
+    font-weight: 300;
+    float: left;
+}
+footer div {   
+    float: right;
+    position: relative;
+    transform: translateY(50%);
+}
+footer a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #2e2e2e;
+}
+footer a:hover {
+    opacity: .8;
+}
+
+@media only screen and (max-width: 890px) {
+    #about-me {
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+    }
+    #about-me img {
+        width: 50%;
+    }
+    #about-me div {
+        text-align: left;
+    }
+    #about-me div p{
+        font-size: 20px;
+    }
+    #spacer {
+        display: none;
+    }
+    #title {
+        width: 50%;
+    }
+    #title h1 {
+        font-size: 25px;
+    }
+    #tools {
+        text-align: center;
+    }
+    #tools-content {
+        margin: auto;
+        width: 90%;
+    }
+    #tools div h1{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    #tools div p {
+        font-size: 16px;
+    }
+    #tools {
+        display: block;
+    }
+    #title-2 {
+        width: 40%;
+    }
+    #title-2 h1 {
+        font-size: 25px;
+    }
+    footer {
+        height: fit-content;
+        text-align: center;
+    }
+    footer p {
+        font-size: 14px;
+        float: none;
+    }
+    footer div {
+        transform: translateY(0%);
+        float: none;
+        margin-top: 10px;
+    }
+    footer a {
+        font-size: 10px;
+    }
+
+}
