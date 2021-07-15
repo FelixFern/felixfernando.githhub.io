@@ -104,6 +104,10 @@ body::-webkit-scrollbar-thumb {
     font-weight: 700;
     color: #3E3E3E;
 }
+#all-project {
+    width: 85%;
+    margin: auto;
+}
 /* Card */
 #card { 
     overflow: hidden;
